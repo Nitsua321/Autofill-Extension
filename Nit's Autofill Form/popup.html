@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Auto-Fill Google Form</title>
+    <style>
+      body { width: 300px; height: 400px; padding: 10px; font-family: Arial, sans-serif; }
+      input, button { width: 100%; margin-bottom: 10px; }
+      button { cursor: pointer; }
+      .keyword-input { display: flex; margin-bottom: 10px; }
+      .keyword-pair { display: flex; margin-bottom: 10px; }
+    </style>
+  </head>
+  <body>
+    <h3>Auto-fill Google Form</h3>
+    <div id="keyword-container"></div>
+    <button id="add-pair-btn">Add New Pair</button>
+    <button id="save-btn">Save</button>
+    <button id="clear-btn">Clear All</button>
+
+    <br>
+
+    <label for="autofill-toggle">Autofill On/Off</label>
+    <input type="checkbox" id="autofill-toggle">
+
+    <script src="popup.js"></script>
+  </body>
+</html>
